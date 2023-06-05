@@ -1,0 +1,3 @@
+eval "$(/Users/ravi.rai/opt/anaconda3/bin/conda shell.posix hook)"
+conda activate  "/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml"
+python /Users/ravi.rai/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py -m autopep8 --diff "/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/setup.py.9d8b039aee49f95a6f299dda02c2ba77.tmp"

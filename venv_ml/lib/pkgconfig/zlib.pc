@@ -1,0 +1,13 @@
+prefix=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml
+exec_prefix=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml
+libdir=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml/lib
+sharedlibdir=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml/lib
+includedir=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

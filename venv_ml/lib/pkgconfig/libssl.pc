@@ -1,0 +1,11 @@
+prefix=/Users/ravi.rai/Documents/Python-ML/ML/End to End Project/ML_Project/venv_ml
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1t
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}
